@@ -1,24 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sokoban", "Socoban\Socoban.vcxproj", "{3E995138-EF48-4D09-823F-10F2B2220B72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug Unicode|Win32 = Debug Unicode|Win32
 		Debug|Win32 = Debug|Win32
-		Release Unicode|Win32 = Release Unicode|Win32
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3E995138-EF48-4D09-823F-10F2B2220B72}.Debug Unicode|Win32.ActiveCfg = Debug|Win32
-		{3E995138-EF48-4D09-823F-10F2B2220B72}.Debug Unicode|Win32.Build.0 = Debug|Win32
 		{3E995138-EF48-4D09-823F-10F2B2220B72}.Debug|Win32.ActiveCfg = Debug|Win32
 		{3E995138-EF48-4D09-823F-10F2B2220B72}.Debug|Win32.Build.0 = Debug|Win32
-		{3E995138-EF48-4D09-823F-10F2B2220B72}.Release Unicode|Win32.ActiveCfg = Release|Win32
-		{3E995138-EF48-4D09-823F-10F2B2220B72}.Release Unicode|Win32.Build.0 = Release|Win32
 		{3E995138-EF48-4D09-823F-10F2B2220B72}.Release|Win32.ActiveCfg = Release|Win32
 		{3E995138-EF48-4D09-823F-10F2B2220B72}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
