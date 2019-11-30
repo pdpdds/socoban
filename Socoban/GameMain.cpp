@@ -44,24 +44,26 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 			
 	CGameCore::GetInstance()->Initialize(hInstance, g_hWnd);	
 	
-	while( TRUE )
+	while (TRUE)
 	{
-		if ( PeekMessage(&msg, NULL, 0, 0, PM_NOREMOVE) )  
+		if (PeekMessage(&msg, NULL, 0, 0, PM_NOREMOVE))
 
-		{	if ( !GetMessage(&msg, NULL, 0, 0) )
-		break;									
+		{
+			if (!GetMessage(&msg, NULL, 0, 0))
+				break;
 
-		TranslateMessage(&msg);
-		DispatchMessage(&msg);}
+			TranslateMessage(&msg);
+			DispatchMessage(&msg);
+		}
 
 		else if (CGameCore::GetInstance()->GetPause())
 		{
-			WaitMessage () ;
+			WaitMessage();
 		}
 		else
-		{ 
+		{
 			CGameCore::GetInstance()->ProcessGame();
-			
+
 		}
 
 	}
