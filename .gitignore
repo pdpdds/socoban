@@ -1,0 +1,15 @@
+
+*.db
+.vs/Socoban/v16/.suo
+*.db-shm
+*.db-wal
+*.opendb
+*.exe
+*.ilk
+*.obj
+*.res
+*.log
+*.pdb
+*.recipe
+*.tlog
+*.idb
