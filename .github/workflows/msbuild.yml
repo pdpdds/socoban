@@ -40,5 +40,10 @@ jobs:
     - name: Upload a Build Artifact(sokoban)
       uses: actions/upload-artifact@v2.1.4
       with:
-          name: sokoban.exe
+          name: resource
           path: bin/
+    - name: Upload a Binary(sokoban)
+      uses: actions/upload-artifact@v2.1.4
+      with:
+          name: sokoban
+          path: Sokoban.exe    
